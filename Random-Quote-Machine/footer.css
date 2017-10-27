@@ -1,0 +1,46 @@
+/*----------footer-------*/
+.footer-main {
+  background-color: #000000;
+}
+#footer {
+  background-color: #000000;
+  border-top: 1px solid black;
+  bottom: 0;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 5em;
+  min-width: 320px;
+  padding: 1em 1em 0 1em;
+  position: absolute;
+  width: 100%;
+}
+
+.footer-logos {
+  font-size: 14px;
+  margin-top: -1em;
+}
+
+.footer-logos a {
+  text-decoration: none;
+}
+
+.footer-logos i {
+  border: 1px solid rgb(130,14,248);
+  border: 1px solid rgb(92,14,250);
+  border-radius: 25%;
+  color: #4B144C;
+  margin: 0 0 1em 1em;
+  padding-top: .25em;
+  text-align: center;
+  vertical-align: -1.5em;
+}
+
+.footer-logos .genericon {
+  height: 1.6em;
+  width: 1.6em;
+}
+
+.footer-logos .fa {
+  height: 1.75em;  
+  width: 1.75em;
+}

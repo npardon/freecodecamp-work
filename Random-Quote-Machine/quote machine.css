@@ -1,0 +1,38 @@
+body{
+  background-image:url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_exa.png);
+  background-repeat:repeat;
+  /* background Made by Venam found under Subtle Patterns @ http://makerbook.net/textures/*/
+
+}
+body,h1,h3 {
+  font-family:Helvetica,"Book Antiqua", sans-serif;
+  color: #9b60c1;
+}
+.container-fluid{
+  text-align:center;
+  padding-top:50px
+}
+hr{
+  width:600px;
+  border-bottom:3px solid #1d0538;
+}
+.quote-box{
+  border-color: #9b60c1;
+  border-style: solid;
+  border-radius: 15px;
+  position: center;
+  padding:10px;
+  margin-top:20px;
+  margin-bottom:20px;
+  height:auto;
+}
+.quote {
+  font-family:Helvetica,"Book Antiqua", sans-serif;
+  font-size: 20px;
+  color: #9b60c1;
+}
+
+.author{
+  font-style: italic;
+}
+
