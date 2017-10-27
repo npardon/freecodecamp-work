@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+    <title>Local weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="weather-app.css" media="all">
+    <link rel="stylesheet" type="text/css" href="footer.css" media="all">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Local Weather</a>
+                </div>
+                <ul class="nav navbar-nav">
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" id='toggle'><span class="cloud"><i class="fa fa-cloud" aria-hidden="true"></i></span> Celsius/Fahrenheit</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="spacer"></div>
+        
+
+        <div class="block">
+          <div id= "response">
+            <h1 class="text-center"><span id="currentTemp">...</span></h1>
+            <h1 class="text-center"><span id="currentConditions">...</span></h1><br>
+            Country name: <span id="country"></span><br> City: <span id="city"></span><br> Latitude: <span id="latitude"></span><br> Longitude: <span id="longitude"></span><br>
+        </div>
+
+
+        <div class='spacer'> </div>
+    </div>
+
+    <!-------Footer---------->
+    <div class="spacer"></div>
+  <footer>
+  <div  class="footer-main">
+    <div class="container-fluid text-center">
+  <div class="footer-text text-muted row"> Copyright &copy; <script>document.write(new Date().getFullYear());</script>  Developed for the FreeCodeCamp Front-end Development Challenges </div>
+    <div class="footer-logos row">
+      <a href="https://www.linkedin.com/in/nadia-ardon-5a021772" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/npardon" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://www.freecodecamp.org/npardon" target="_blank"><i class="fa fa-fire"></i></a>
+      <a href="https://codepen.io/npardon/#" target="_blank"><i class="fa fa-codepen"></i></a>
+      
+    </div>
+  </div>
+
+</div>
+</footer>
+<!---------------Footer end -------------------->
+</div>
+
+       
+        <script src = "https://code.jquery.com/jquery-3.2.1.min.js" integrity = "sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin = "anonymous" >
+    </script>
+    <script src="test-w.js"></script>
+</body>
+
+
+</html>

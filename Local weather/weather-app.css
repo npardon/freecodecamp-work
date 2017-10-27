@@ -1,0 +1,46 @@
+#query {
+	margin-top: 10px;
+margin:auto;
+text-align: center;
+width:40; 
+
+}
+
+h3{
+	margin-top: 5px;
+}
+
+input[type="text"]{
+	height: 30px;
+	font-size: 15px;
+}
+#submit-weather{
+height: 30px;
+font-size: 15px;
+font-weight:bold; ;	
+}
+
+.block {
+background-color: #DFF3E3;
+opacity: .70;
+color:#68F40A; 
+padding: 20%;
+width: 50%;
+margin-right: auto;
+margin-left: auto;
+border-radius: 20px;
+font-size:1em;
+padding-bottom: 10px;
+}
+
+.spacer{
+	padding: 5%
+}
+body{
+background:no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size:cover;
+background-size: cover;
+
+}
+
