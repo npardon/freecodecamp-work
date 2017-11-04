@@ -34,21 +34,26 @@ color : white;
 }
 
 table {
-font-family : "Helvetica", sans-serif;
-font-size : 12px;
-font-style : normal;
-color : white;
+  table-layout: fixed;
+  font-family: "Helvetica", sans-serif;
+  font-size : 14px;
+  font-style : normal;
+  color : white;
 }
-th, td {
-text-indent : 5em;
-padding : 15px;
+.championships{
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
 }
-dt, dd {
-font-family : "Helvetica", sans-serif;
-font-size : 12px;
-font-style : normal;
-color : white;
+.championships td{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+.row-championships{
+  width: 15%;
+}
+
 .footer {
 background-color : #000000;
 border-top : 1px solid black;
